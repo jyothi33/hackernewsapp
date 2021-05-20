@@ -1,38 +1,28 @@
-.App {
+body {
+  background-color: gainsboro;
+  color: black;
+  margin: 5em 10em;
+}
+h1 {
   text-align: center;
+  color: aliceblue;
+  background-color: dimgray;
+  padding: 1em;
+  font-family: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  color: blue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.comment__label {
+  float: right;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ui.checkbox {
+  font-style: italic;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ui.checkbox label {
+  color: lightslategray;
 }
