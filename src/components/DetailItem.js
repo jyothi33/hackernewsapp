@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import CommentItem from "./CommentItem";
 import StoryItem from "./StoryItem";
-import { Comment, Segment } from "semantic-ui-react";
+import { Comment } from "semantic-ui-react";
 
 const DetailItem = ({ id, collapsed }) => {
   const [detail, setDetail] = useState({});
